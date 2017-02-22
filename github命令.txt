@@ -1,0 +1,18 @@
+git add "目标";添加进项目
+git commit -m "changes log"; 提交本地代码改动信息
+git push origin master;推送改动，可以把 master 换成你想要推送的任何分支
+git pull；先把git的东西fetch获取到你本地然后merge合并，更新本地文件
+-------------------------------------------------------------------------------
+git checkout -b branch1；创建一个叫做"branch1"的分支，并切换过去.
+git checkout master;切换回主分支;
+git branch -d branch1;删除"branch1"分支
+git push origin --delete 名字；删除远程分支
+-------------------------------------------------------------------------------
+git merge branch1；合并"branch1"分支到master，(则功能以后以后再研究)；
+
+-------------------------------------------------------------------------------
+git log；获取提交 ID
+git tag 1.0.0 ID；创建一个叫做 1.0.0 的标签
+git push origin tag名；推送
+git push origin --delete Tag名；删除远程Tag
+git branch –d 名字；删除远程Tag git push origin --delete Tag名
